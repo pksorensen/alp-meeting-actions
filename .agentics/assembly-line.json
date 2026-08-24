@@ -1,0 +1,5 @@
+{
+  "name": "Møde → transskription → actions",
+  "description": "Tager en mødeoptagelse og laver den til en mødemappe: ordret transskription med talere, og derefter et referat med aftalte actions, ejer og tidsstempel. To stationer, fordi de to halvdele er forskellige slags arbejde — den ene måler, den anden vurderer.",
+  "version": "0.1.0"
+}

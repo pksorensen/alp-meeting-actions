@@ -1,0 +1,6 @@
+{
+  "createTask": {
+    "title": "Transskribér møde",
+    "description": "Skriv stien til optagelsen i repoet her, f.eks. `meetings/2026-01-15-statusmoede/raw/recording.mp4`. Kender du talerne, så skriv dem også: \"Talere: 1=Fornavn, 2=Fornavn\". Er du i tvivl om hvem der er hvem, så lad feltet stå tomt — første station finder ud af det."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "transcribe",
+  "name": "Transskribér",
+  "trigger": {
+    "type": "dispatch_worker",
+    "autoGit": true
+  }
+}

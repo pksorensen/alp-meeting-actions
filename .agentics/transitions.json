@@ -1,0 +1,3 @@
+[
+  { "from": "transcribe", "to": "actions", "condition": "success" }
+]
