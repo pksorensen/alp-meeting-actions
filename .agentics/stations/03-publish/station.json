@@ -1,6 +1,6 @@
 {
-  "id": "transcribe",
-  "name": "Transcript",
+  "id": "publish",
+  "name": "Publish brief",
   "trigger": {
     "type": "dispatch_worker",
     "autoGit": true,

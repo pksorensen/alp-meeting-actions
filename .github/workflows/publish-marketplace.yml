@@ -1,0 +1,20 @@
+name: Publish to marketplace
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.agentics/**'
+      - '.github/workflows/publish-marketplace.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pksorensen/pks-cli/.github/actions/publish-assembly-line@main

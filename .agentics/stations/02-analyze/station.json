@@ -1,6 +1,6 @@
 {
-  "id": "transcribe",
-  "name": "Transcript",
+  "id": "analyze",
+  "name": "Analyze",
   "trigger": {
     "type": "dispatch_worker",
     "autoGit": true,

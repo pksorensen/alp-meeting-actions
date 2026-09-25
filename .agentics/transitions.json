@@ -1,3 +1,4 @@
 [
-  { "from": "transcribe", "to": "actions", "condition": "success" }
+  { "from": "transcribe", "to": "analyze", "condition": "success" },
+  { "from": "analyze", "to": "publish", "condition": "success" }
 ]

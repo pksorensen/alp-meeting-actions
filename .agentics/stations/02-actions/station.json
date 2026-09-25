@@ -1,8 +1,0 @@
-{
-  "id": "actions",
-  "name": "Actions",
-  "trigger": {
-    "type": "dispatch_worker",
-    "autoGit": true
-  }
-}

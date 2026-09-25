@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "automations": [
+    {
+      "type": "meeting.completed",
+      "stationId": "transcribe",
+      "requires": ["inbox", "meeting"],
+      "inbox": {
+        "defaultLabel": "meetings",
+        "description": "Send calendar invitations here to let the meeting agent join automatically."
+      },
+      "agent": {
+        "defaultDisplayName": "Agentics Meeting Agent",
+        "description": "The participant name shown to everyone in the call."
+      }
+    }
+  ]
+}

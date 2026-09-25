@@ -1,5 +1,9 @@
 {
-  "name": "Møde → transskription → actions",
-  "description": "Tager en mødeoptagelse og laver den til en mødemappe: ordret transskription med talere, og derefter et referat med aftalte actions, ejer og tidsstempel. To stationer, fordi de to halvdele er forskellige slags arbejde — den ene måler, den anden vurderer.",
-  "version": "0.1.0"
+  "name": "Meeting Intelligence",
+  "description": "Invite an Agentics meeting agent, then turn the captured conversation into a verified transcript, decision analysis, and a publishable meeting brief.",
+  "version": "0.2.0",
+  "marketplace": {
+    "slug": "meeting-actions",
+    "tags": ["Meetings", "Inbox", "Transcription", "Analysis"]
+  }
 }
